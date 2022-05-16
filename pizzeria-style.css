@@ -15,7 +15,9 @@ body {
     padding:0;
     font-family:"Poppins", Arial, Helvetica, sans-serif;
 }
-
+#Home {
+    position: sticky;
+}
 .nav-container {
     display: flex;
     height:200px;
@@ -23,6 +25,8 @@ body {
     background-size: cover;
     background-position: center;
     opacity: 0.8;
+
+    
 }
 .nav-navigation {
     display: flex;
@@ -61,7 +65,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 28%;
-    margin-left:47rem;
+    margin-left:55rem;
 }
 .nav-b12 {
     display: flex;
@@ -122,10 +126,67 @@ a:hover, .button:hover {
     text-align:left;
     font-size: 1.2rem;
     text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+
     padding: 10px;
+    width:60%;
 }
 .promo img {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+#Bestsellers {
+    display: flex;
+    background-color: black;
+}
+.bestseller-section {
+    display: flex;
+    background-color: rgb(71, 70, 70);
+    padding-top: 80px;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    height:fit-content;
+}
+.bestsellers-album {
+    display: flex;
+    border: 3px solid rgb(51, 51, 51);
+    width: fit-content;
+    height: 480px;
+    justify-content: center;
+    align-items: centers;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    background-color: rgb(231, 231, 220);
+    border-radius: 15px;
+    margin-bottom: 85px;
+}
+.bestsellers-album ul {
+    display:block;
+    list-style: none;
+    align-items: center;
+}
+.bestsellers-album ul li {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-right: 33px;
+}
+.bestseller img {
+    width: 21rem;
+
+}
+.bestsellers-album {
+    display: flex;
+    text-align: center;
+ 
+}
+.bestseller-button a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom:100px;
+    color: black;
 }
