@@ -16,8 +16,9 @@ body {
     font-family:"Poppins", Arial, Helvetica, sans-serif;
 }
 #Home {
-    position: sticky;
+
 }
+
 .nav-container {
     display: flex;
     height:200px;
@@ -25,7 +26,7 @@ body {
     background-size: cover;
     background-position: center;
     opacity: 0.8;
-
+    position: sticky;
     
 }
 .nav-navigation {
@@ -65,7 +66,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 28%;
-    margin-left:55rem;
+    margin-left:70rem;
 }
 .nav-b12 {
     display: flex;
@@ -189,4 +190,59 @@ a:hover, .button:hover {
     font-weight: bold;
     padding-bottom:100px;
     color: black;
+}
+.bestsellers-album:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+.about-us-container {
+    display:block;
+    background-color: rgb(248, 248, 116);
+    margin-top: 200px;
+    width: 80%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+.about-us-descph {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 95px;
+
+}
+.about-us-descph .about-us-description {
+    width: 50%;
+}
+.about-us-descph .about-us-photo {
+    width: 25%; 
+}
+.about-us-descph .about-us-photo img {
+    width: 400px;   
+}
+.about-us-description p {
+    font-size: 1.5rem;
+    text-align: justify;
+    width: 800px;
+    
+}
+.photo1 {
+}
+.photo2 {
+}
+.about-us-heading {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 1px;
+}
+
+.promo-heading h1{
+    border: 2px solid black;
+    transform: rotate(90deg);
+    font-size: 90px;
+    margin-left:-190px;
+    background-color: rgb(151, 206, 154);
+    padding-left: 20px;
+    padding-right: 20px;
 }
