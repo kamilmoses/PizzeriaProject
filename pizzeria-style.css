@@ -81,7 +81,7 @@ body {
     border: 2px solid rgb(255, 254, 254);
     margin-right: 45px;
     padding: 12px;
-    background-color:cadetblue;
+    background-color:rgb(64, 116, 117);
     width: 130px;
     text-align: center;
 }
@@ -89,4 +89,43 @@ a:hover, .button:hover {
     transition: 1s;
     color:greenyellow;
     border-color: greenyellow;
+    transform:rotate
+}
+
+#Promos {
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    width: 80%;
+}
+.promo-album {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.promo {
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px solid rgb(12, 10, 165);
+    align-items: center;
+    padding-bottom: 20px;
+}
+.promo h1 {
+    text-align:center;
+    font-size: 2rem;
+}
+.promo p {
+    text-align:left;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 10px;
+}
+.promo img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
