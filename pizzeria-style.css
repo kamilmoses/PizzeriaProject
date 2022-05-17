@@ -22,7 +22,7 @@ body {
 .nav-container {
     display: flex;
     height:200px;
-    background-image: url("/images/pizza-nav.jpg");
+    background-image: url("https://raw.githubusercontent.com/kamilmoses/PizzeriaProject/master/images/pizza-nav.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.8;
