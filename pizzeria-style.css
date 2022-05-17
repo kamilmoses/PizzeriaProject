@@ -15,37 +15,32 @@ body {
     padding:0;
     font-family:"Poppins", Arial, Helvetica, sans-serif;
 }
-#Home {
-
-}
-
 .nav-container {
     display: flex;
-    height:200px;
+    width: 100vw;
+    height:300px;
     background-image: url("https://raw.githubusercontent.com/kamilmoses/PizzeriaProject/master/images/pizza-nav.jpg");
     background-size: cover;
     background-position: center;
-    opacity: 0.8;
-    position: sticky;
-    
+    opacity: 0.8;    
 }
 .nav-navigation {
     display: flex;
-    width:fit-content;
-    justify-content:right;
+    justify-content:center;
     margin-left: auto;
     height:100px;
     align-items: center;
+    width:fit-content;
 }
 .nav-nav {
     display: flex; 
-    margin-right: 3rem;
+    align-items: center;
+    justify-content: center;
 }
 .nav-nav ul {
     display: flex;
     list-style: none;
     font-size: 1.5rem;
-    border
 }
 .nav-nav li {
     margin-right: 2rem;
@@ -61,17 +56,18 @@ body {
     transform: scale(0.2);
     transition: 0.4s;
 }
+
 .nav-buttons {
-    display: flex;
-    align-items: center;
+    display: block;
+    align-items:center;
     justify-content: center;
     width: 28%;
-    margin-left:70rem;
+    padding-left: 40vw;
+    padding-top: 18vh;
+
 }
 .nav-b12 {
     display: flex;
-    align-items: center;
-
 }
 .nav-b12 a {
     display:flex;
@@ -86,8 +82,8 @@ body {
     border: 2px solid rgb(255, 254, 254);
     margin-right: 45px;
     padding: 12px;
-    background-color:rgb(64, 116, 117);
-    width: 130px;
+    background-color:rgba(112, 117, 117, 0.082);
+    width: 15vw;
     text-align: center;
 }
 a:hover, .button:hover {
@@ -139,12 +135,12 @@ a:hover, .button:hover {
     margin-right: auto;
 }
 .promo-heading h1{
-    border: 2px solid black;
+    border: 4px solid rgb(102, 180, 37);
     transform: rotate(90deg);
     font-size: 90px;
-    margin-left:-170px;
-    margin-top: 200px;
-    background-color: rgb(151, 206, 154);
+    margin-left:-200px;
+    margin-top: 300px;
+    background-color: rgb(255, 245, 112);
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -154,6 +150,7 @@ a:hover, .button:hover {
 }
 .bestseller-section {
     display: flex;
+    flex-wrap: wrap;
     background-color: rgb(71, 70, 70);
     padding-top: 80px;
     width: 80%;
@@ -167,7 +164,7 @@ a:hover, .button:hover {
     width: fit-content;
     height: 480px;
     justify-content: center;
-    align-items: centers;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
@@ -219,27 +216,31 @@ a:hover, .button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 95px;
-
 }
 .about-us-descph .about-us-description {
     width: 50%;
 }
 .about-us-descph .about-us-photo {
+    display: flex;
     width: 25%; 
+    align-items: center;
+    justify-content: center;
 }
 .about-us-descph .about-us-photo img {
-    width: 400px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;   
 }
 .about-us-description p {
     font-size: 1.5rem;
     text-align: justify;
-    width: 800px;
-    
+    width: fit-content;
+
 }
-.photo1 {
-}
-.photo2 {
+.about-us-descph img {
+    border: 4px solid black;
+    opacity: 0.9
 }
 .about-us-heading {
     text-align: center;
